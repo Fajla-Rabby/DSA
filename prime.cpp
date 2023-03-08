@@ -29,4 +29,15 @@ int main()
     {
         cout << "Is a prime number"<<endl;
     }
+
+    //continue
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<" HI "<<endl;
+        cout<<" Hey "<<endl;
+        continue;
+
+        cout<<"Reply to karde"<<endl;
+    }
+    
 }
