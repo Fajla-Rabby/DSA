@@ -27,17 +27,31 @@ int main()
     }
     else
     {
-        cout << "Is a prime number"<<endl;
+        cout << "Is a prime number" << endl;
     }
 
-    //continue
+    cout << "Continue: " << endl;
+
+    // continue
     for (int i = 0; i < 5; i++)
     {
-        cout<<" HI "<<endl;
-        cout<<" Hey "<<endl;
+        cout << " HI " << endl;
+        cout << " Hey " << endl;
         continue;
 
-        cout<<"Reply to karde"<<endl;
+        cout << "Reply to karde" << endl;
     }
-    
+
+    cout << "Output test: " << endl;
+    // output test
+    for (int i = 0; i <= 15; i += 2)
+    {
+        cout << i << " ";
+        if (i&1)
+        {
+            continue;
+        }
+        
+        i++;
+    }
 }
