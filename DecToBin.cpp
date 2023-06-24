@@ -4,6 +4,8 @@ using namespace std;
 
 //TODO: this code has problem
 
+//devide by 2 korle ans aste thakbe
+
 int main()
 {
     int n;
