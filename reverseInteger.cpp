@@ -6,7 +6,7 @@ using namespace std;
 int reverse(int x)
 {
     int ans = 0;
-    // n er value 0 na hoa porjonto loop ta cholbe
+    // x er value 0 na hoa porjonto loop ta cholbe
     while (x != 0)
     {
         // modulus kore  kore last digit gula ber korte thakbo
