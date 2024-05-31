@@ -12,11 +12,11 @@ int main()
 {
     // print from 1 to 100
     for (int i = 1; i <= 100; i++)
-        cout << i << endl;
+        // cout << i << endl;
 
     // print 10 to 1
     for (int i = 10; i >= 1; i--)
-        cout << i << endl;
+        // cout << i << endl;
 
     // print odd number from 1 to 10
     for (int i = 1; i <= 10; i += 2)
@@ -48,7 +48,7 @@ int main()
         // if even, continue the loop
         //don't go down
         if(i % 2 == 0) continue;
-        cout<<i<<endl;
+        // cout<<i<<endl;
     }
 
     int sum = 0, n = 1;
@@ -59,4 +59,11 @@ int main()
             sum +=j;
         }
     }
+    int a, b;
+    a = cin.get();
+    if(a == 9)
+    {
+        cout<<"you are pressing tab"<<endl;
+    }
+    cout<<"value of a is : "<<a<<endl;
 }
