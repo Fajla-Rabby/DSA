@@ -6,7 +6,13 @@
         "*.tcc": "cpp",
         "array": "cpp",
         "string_view": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
     },
     "workbench.preferredDarkColorTheme": "Default Dark Modern",
     "workbench.colorTheme": "One Dark Pro Mix"
