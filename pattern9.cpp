@@ -13,7 +13,7 @@ int main()
         int col = 1;
         while(col <= n)
         {
-            char ch = 'A' + row - 1;
+            char ch = 'A' + col - 1;
             cout<<ch;
             col++;
         }
