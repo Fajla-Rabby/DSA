@@ -1,31 +1,24 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-   /* Input
-The first line contains a string A (1 ≤ |A| ≤ 10) where |A| is the length of A.
+    int tt;
+    cin >> tt;
+    int result = 0;
 
-The second line contains a string B (1 ≤ |B| ≤ 10) where |B| is the length of B.
+    while (tt--)
+    {
+        int ar[3];
+        cin>>ar[0] >> ar[1] >> ar[2];
+        if (ar[0] + ar[1] + ar[2] >= 2)
+        {
+            result += 1;
+        }
+    }
+    cout << result;
 
-Output
-Print the answer required above.
-
-Example
-InputCopy
-abcd
-ef
-OutputCopy
-4 2
-abcdef
-ebcd af */
-   
-      string A, B;
-      cin >> A >> B;
-      cout << A.size() << " " << B.size() << endl;
-      cout << A + B << endl;
-      cout << B[0] + A.substr(1) << " " << A[0] + B.substr(1) << endl;
-      return 0;
-
+    return 0;
 }
