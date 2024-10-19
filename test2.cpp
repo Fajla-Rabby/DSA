@@ -12,19 +12,27 @@ int main()
 
     while (tt--)
     {
-        int n, k;
-        cin>>n>>k;
-        int result = 0;;
-
-        while(n>0)
+        string s;
+        cin>>s;
+        if(s[0] == '+')
         {
-            result+= n % k;
-            n = (n - pow(k,x));
-            x++;
-            cout<<x;
+            ++x;
         }
-        
+        else if(s[2] == '+')
+        {
+            x++;
+        }
+        else if(s[0] == '-')
+        {
+            --x;
+        }
+        else if(s[2] == '-')
+        {
+            x--;
+        }
     }
+
+    cout << x << endl;
    
     return 0;
 }
