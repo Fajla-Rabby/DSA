@@ -5,34 +5,22 @@ using namespace std;
 
 int main()
 {
-    int tt;
-    cin >> tt;
-    // int result = 0;
-     int x = 0;
+    int tt, k;
+    cin >> tt >> k;
+    int a[tt];
+    int count = 0;
 
-    while (tt--)
+    for (int i = 0; i < tt; ++i) {
+        cin >> a[i];
+    }
+ 
+    for(int i = 0; i < tt; ++i)
     {
-        string s;
-        cin>>s;
-        if(s[0] == '+')
+        if(a[i] >= a[k - 1] && a[i] > 0)
         {
-            ++x;
-        }
-        else if(s[2] == '+')
-        {
-            x++;
-        }
-        else if(s[0] == '-')
-        {
-            --x;
-        }
-        else if(s[2] == '-')
-        {
-            x--;
+            count++;
         }
     }
-
-    cout << x << endl;
-   
+    cout << count << endl;
     return 0;
 }
