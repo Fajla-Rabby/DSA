@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool search(int arr[], int size, int key)
+bool findingElement(int arr[], int size, int key)
 {
     for(int i = 0; i < size; i++)
     {
@@ -21,15 +21,13 @@ int main()
     int key;
     cin >> key;
 
-    bool found = search(arr, 10, key);
+    bool found = findingElement(arr, 10, key);
+    if(found)
+    {
+        cout << "found";
+    }
+    else{
+        cout << "not found";
+    }
 
-    if (found)
-    {
-        cout << "key is present" << endl;
-    }
-    else
-    {
-        cout << "key is absent" << endl;
-    }
-    return 0;
 }
