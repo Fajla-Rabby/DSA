@@ -13,7 +13,8 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "utility": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "random": "cpp"
     },
     "workbench.preferredDarkColorTheme": "Default Dark Modern",
     "workbench.colorTheme": "One Dark Pro Mix"
